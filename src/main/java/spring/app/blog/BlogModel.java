@@ -5,6 +5,9 @@ public class BlogModel {
     private String title;
     private String description;
 
+    public BlogModel() {
+    }
+
     public BlogModel(Integer id, String title, String description) {
         this.id = id;
         this.title = title;
